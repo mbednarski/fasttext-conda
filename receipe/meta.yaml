@@ -1,0 +1,28 @@
+package:
+  name: fasttext
+  version: "0.8.22"
+
+source:
+  path: ../fastText 
+requirements:
+  host:
+    - python
+    - setuptools
+    - pybind11
+
+  run:
+    - python
+    - numpy
+    - scipy
+    - pybind11
+
+test:
+  source_files:
+    - runtests.py
+  requires:
+    - nose
+  imports:
+    - fastText
+  commands:
+    - ls
+    - python runtests.py -u
