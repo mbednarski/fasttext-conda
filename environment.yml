@@ -1,0 +1,9 @@
+name: ft-build-env
+channels:
+  - defaults
+dependencies:
+  - pip>=18.1
+  - python=3.7.0=hc3d631a_0
+  - setuptools>=40
+  - wheel>=0.32.0
+
