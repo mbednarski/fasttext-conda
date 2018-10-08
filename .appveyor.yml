@@ -6,7 +6,7 @@ install:
   - python --version
   - dir C:\Miniconda37-x64\Scripts
   - C:\Miniconda37-x64\Scripts\conda.exe --version
-  - C:\Miniconda37-x64\Scripts\conda.exe install conda-build conda-verify -y
+  - C:\Miniconda37-x64\Scripts\conda.exe install conda-build conda-verify libarchive -y
   - cd c:\projects\myproject
   - C:\Miniconda37-x64\Scripts\conda-build.exe receipe
   - C:\Miniconda37-x64\Scripts\conda-build.exe receipe --python=3.6
