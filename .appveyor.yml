@@ -4,6 +4,5 @@ clone_folder: c:\projects\myproject
 
 install:
   - python --version
-  - dir C:\Miniconda37-x64
+  - dir C:\Miniconda37-x64\Scripts
   - C:\Miniconda37-x64\bin\conda.exe --version
-  
