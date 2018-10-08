@@ -1,6 +1,8 @@
 task:
   container:
-    image: python:latest
-  script: python --version
+    image: continuumio/anaconda3:latest
+  script: 
+    - python --version
+    - conda --version
 
 
