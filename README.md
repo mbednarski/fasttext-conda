@@ -15,9 +15,9 @@ Unofficial conda fasttext packages for linux and Windows. Work in progress.
 $ pip install -U pip setuptools wheel
 ~~~~
 
-2. Install conda `conda-build`
+2. Install conda `conda-build` and `conda-verify`
 ~~~~shell
-$ conda install conda-build
+$ conda install conda-build conda-verify
 ~~~~
 
 3. Run `conda-build`
@@ -25,7 +25,7 @@ $ conda install conda-build
 $ conda-build fasttext
 ~~~~
 
-Afrer sucessful build, conda will show you location of builded artifacts. For example: `~/miniconda3/conda-bld`. Inside this directory you will find your platform ('linux-64`,`win-64` etc). In my case, package was saved as `~/miniconda3/conda-bld/linux-64/fasttext-0.8.22-py36_0.tar.bz2`
+Afrer sucessful build, conda will show you location of builded artifacts. For example: `~/miniconda3/conda-bld`. Inside this directory you will find your platform (`linux-64`,`win-64` etc). In my case, package was saved as `~/miniconda3/conda-bld/linux-64/fasttext-0.8.22-py36_0.tar.bz2`
 
 ## Build for other Python version
 
