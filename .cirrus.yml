@@ -1,0 +1,6 @@
+task:
+  container:
+    image: python:latest
+  script: python --version
+
+
