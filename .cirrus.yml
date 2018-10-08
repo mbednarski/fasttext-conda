@@ -4,6 +4,7 @@ task:
   script: 
     - python --version
     - conda --version
+    - apt install libarchive -y
     - conda install conda-build libarchive
     - ls
     - conda build receipe
