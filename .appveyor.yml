@@ -1,0 +1,9 @@
+image: Visual Studio 2015
+
+clone_folder: c:\projects\myproject
+
+install:
+  - python --version
+  - dir C:\Miniconda37-x64
+  - C:\Miniconda37-x64\bin\conda.exe --version
+  
