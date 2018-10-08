@@ -4,5 +4,8 @@ task:
   script: 
     - python --version
     - conda --version
+    - conda install conda-build
+    - ls
+    - conda build receipe
 
 
