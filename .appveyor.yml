@@ -6,7 +6,7 @@ install:
   - python --version
   - set PATH=%PATH%;C:\Miniconda37-x64\Scripts
   - conda create -n py35 python=3.5 -y
-  - conda activate py35
+  - activate py35
   - conda install conda-build anaconda-client conda-verify libarchive bzip2 python-libarchive-c -y
   - cd c:\projects\myproject
   - conda-build receipe
