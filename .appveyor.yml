@@ -5,7 +5,7 @@ clone_folder: c:\projects\myproject
 install:
   - python --version
   - dir C:\Miniconda37-x64\Scripts
-  - C:\Miniconda37-x64\Scripts\conda.exe create py35 python=3.5
+  - C:\Miniconda37-x64\Scripts\conda.exe create -n py35 python=3.5
   - C:\Miniconda37-x64\Scripts\conda.exe activate py35
   - conda install conda-build anaconda-client conda-verify libarchive bzip2 python-libarchive-c -y
   - cd c:\projects\myproject
